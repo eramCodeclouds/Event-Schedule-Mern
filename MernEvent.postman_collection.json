@@ -1,0 +1,334 @@
+{
+	"info": {
+		"_postman_id": "ea850da8-d4b6-43f4-8de2-bb931dfbfb20",
+		"name": "MernEvent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user-create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"neha@gmail.com\",\n    \"mobile\" : 6290866434,\n    \"password\" : \"A18h@jhd\",\n    \"fname\" : \"Neha\",\n    \"lname\": \"shaw\",\n    \"address\" : \"kolkata\",\n    \"gen\" : \"female\",\n    \"dob\" : \"24-02-2001\",\n    \"fathername\" : \"Ritik Shaw\",\n    \"state\" : \"West Bengal\",\n    \"city\" : \"kolkata\",\n    \"pincode\" : 712248\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/user-create",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user-create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "adminsignup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"jhon@outlook.com\",\n    \"password\": \"Jhon@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/adminsignup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"adminsignup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "adminlogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"jhon@outlook.com\",\n    \"password\": \"Jhon@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/adminlogin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"adminlogin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"email\": \"neha@gmail.com\",\n   \"password\" : \"A23@hhhd\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user-login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user-login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin_update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"admin@outlook.com\",\n    \"password\": \"Admin@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/admin_update/634823c29a457994aa5ca81a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"admin_update",
+						"634823c29a457994aa5ca81a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-data-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"niloooo@gmail.com\",\n    \"mobile\" : 6290666434,\n    \"password\" : \"123456666\",\n    \"fname\" : \"Neha\",\n    \"lname\": \"shaw\",\n    \"address\" : \"kolkata\",\n    \"gender\" : \"female\",\n    \"dob\" : \"24-02-2001\",\n    \"fathername\" : \"Ritik Shaw\",\n    \"state\" : \"West Bengal\",\n    \"city\" : \"kolkata\",\n    \"pincode\" : 712248\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user-data-update/6349868fdf6c856686236677",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user-data-update",
+						"6349868fdf6c856686236677"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-status-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"isActive\" : true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user-data-update/634a8c8d5d357ddb0f284d11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user-data-update",
+						"634a8c8d5d357ddb0f284d11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view-all-users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/view-all-users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"view-all-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view-single-user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/view-single-user/6349868fdf6c856686236677",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"view-single-user",
+						"6349868fdf6c856686236677"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "invite-user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"eram@gmail.com\"   \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/invite-user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"invite-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-invite-update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"status\" : true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user-invite-update/634d4099fdce40c6be1f216a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user-invite-update",
+						"634d4099fdce40c6be1f216a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-invite-by-status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/user-invite-by-status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user-invite-by-status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
